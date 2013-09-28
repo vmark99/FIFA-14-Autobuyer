@@ -5,7 +5,12 @@ The idea of this Autobuyer is that everything that get's contributed, will be ch
 
 Suggestions are always welcome! Donations will go towards the web hosting so it can be accessed and used by all of you.
 
-I'm doing this because the average AB is starting to cost over 100 euro's and the effectivity is strongly starting to decrease. 
+I'm doing this because the average AB is starting to cost over 100 euro's and the effectivity is strongly starting to decrease.
+
+## Sample usage
+
+[To-do](https://github.com/ipsq/FIFA-14-Autobuyer#to-do)
+[Initialization](https://github.com/ipsq/FIFA-14-Autobuyer#initialization)  
 
 ## To-do
 - Web design

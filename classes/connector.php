@@ -67,6 +67,8 @@ class Connector
         $auth      = "http://www.easports.com/iframe/fut/p/ut/auth";
 
         // Logging in
+        // Found a weird glitch that when a return and a failure URI are not provided.
+        // EA returns the NucleusID and some other details.
         $data_string = "loginSource=overlay&email=".$this->user."&password=".$this->password."&overlay-stay-signed=ON";
 
         $ch = curl_init($home);
@@ -91,6 +93,7 @@ class Connector
 
         curl_close($ch);
 
+        // Converts the CURl output to a PHP array so we can use the data.
         $dom = new DOMDocument();
         $dom->loadXML($response);
 

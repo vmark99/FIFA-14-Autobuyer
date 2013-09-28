@@ -177,8 +177,7 @@ class Connector
 			'Easw-Session-Data-Nucleus-Id: '.$nucleusId,
 			'X-UT-Embed-Error: true',
 			// 'X-UT-Route: https://utas.fut.ea.com',
-			// 'X-Requested-With: XMLHttpRequest',
-			// 'Referer: http://www.easports.com/iframe/fut/?baseShowoffUrl=http%3A%2F%2Fwww.easports.com%2Fnl%2Ffifa%2Ffootball-club%2Fultimate-team%2Fshow-off&guest_app_uri=http%3A%2F%2Fwww.easports.com%2Fnl%2Ffifa%2Ffootball-club%2Fultimate-team&locale=nl_NL',                                                                                 
+			// 'X-Requested-With: XMLHttpRequest',                                                                               
 			'Content-Length: ' . strlen($data_string)
 			)                                                                 
 		);

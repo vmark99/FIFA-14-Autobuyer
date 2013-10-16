@@ -2,7 +2,7 @@
 Namespace FIFA14;
 require_once 'vendor/autoload.php';
 //require 'search.php';
-require 'core.php';
+require 'classes/core.php';
   
   echo "Credits: ";
   

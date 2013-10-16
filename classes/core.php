@@ -1,9 +1,9 @@
 <?php
 Namespace FIFA14;
  
-require_once 'vendor/autoload.php';
-require_once 'classes/connector.php';
-require 'classes/eahashor.php';
+require_once '../vendor/autoload.php';
+require_once 'connector.php';
+require 'eahashor.php';
 require 'search.php';
 define("CURL_OPTION_SSL_VERIFYPEER", false);
  
